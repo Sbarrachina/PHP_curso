@@ -76,3 +76,31 @@ echo $cadena_texto;
 // convierte la primera letra de cada palabra en mayúscula
 
 ?>
+
+<br>
+<!-- FUNCION CONTAR CARACTERES Y STRING  -->
+
+<?php 
+
+$cadena_texto="hola mundo";
+
+$longitud= strlen($cadena_texto); // variable cuantos caracteres tiene $cadena_texto
+echo $longitud;
+
+
+?>
+
+<br>
+
+<?php 
+
+$cadena_texto="hola mundo php";
+
+$longitud= strlen($cadena_texto); //cuantos caracteres tiene
+echo $cadena_texto. " tiene " .$longitud. " caracteres <br> ";
+
+$palabras=str_word_count($cadena_texto); // función cuantas palabras tiene
+echo $cadena_texto. " tiene " .$palabras. " palabras <br> ";
+
+
+?>
