@@ -8,10 +8,9 @@
 <body>
 <?php include "./inc/nav.php"; ?>
 
+ <h1> Página Uno</h1>
 
- <h1> Página Dos</h1>
-
- <?php include "inc/footer.php"; ?>
+ <?php include "./inc/footer.php"; ?>
 
     
 </body>
