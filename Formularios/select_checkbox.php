@@ -9,7 +9,7 @@
 
 <!-- metodo POST la mas seguro porque no se ven los datos en navegador -->
 
-<form action="index_checkbox.php" method="POST">
+<form action="./index_checkbox.php" method="POST">
      <!-- Donde voy a enviar el formulario -->
 
 

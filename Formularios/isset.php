@@ -91,7 +91,7 @@ if (isset($nombre)) {
     <title>Document</title>
 </head>
 <body>
-    <form action="for.php" method="POST">
+    <form action="./for.php" method="POST">
         <input type="text" name="numero">
         <button type="submit">Enviar</button>
 
@@ -125,7 +125,7 @@ if (isset($nombre)) {
 
     <?php 
         if(isset($_POST['numeros']) && $_POST['numeros']!=""){
-            include "for.php";
+            include "./for.php";
         }
     
     ?>

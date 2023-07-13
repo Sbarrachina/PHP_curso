@@ -9,7 +9,7 @@
 
 <!-- metodo POST la mas seguro porque no se ven los datos en navegador -->
 
-<form action="index.php" method="POST">
+<form action="./index.php" method="POST">
      <!-- Donde voy a enviar el formulario -->
 
 
@@ -50,7 +50,7 @@
 
 
 
-<form action="index.php" method="GET">
+<form action="./index.php" method="GET">
      <!-- Donde voy a enviar el formulario -->
 
 
