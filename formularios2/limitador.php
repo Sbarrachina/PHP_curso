@@ -18,14 +18,7 @@
 <!-- accept "los formatos que no son admitidos en la subida" -->
 
     </form>
-    <br><br>
-
-<h3> Subir con PHP limitador peso</h3>
-<form action="./carga-limite.php" method="POST" enctype="multipart/form-data">
-    <input type="file" name="fichero" accept=".jpg .png .jpeg"> 
-    <br><br>
-    <button type="submit">Enviar</button>
-
+    
 
 </body>
 
