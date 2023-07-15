@@ -6,8 +6,16 @@
 
 setcookie("Idioma","es", time()+60*60*24*30); // que dure 30 dias 
 
-setcookie("Idioma","es", time()+60*60*24*365); // que dure 1 Año 
+setcookie("Idioma","es", time()+60*60*24*365,"/"); // que dure 1 Año + ruta
 
+setcookie("Idioma","es", time()+60*60*24*365,"/","designlopers.com"); // 
+setcookie("Idioma","es", time()+60*60*24*365,"/","localhost"); // 
+
+setcookie("Idioma","es", time()+60*60*24*365,"/","localhost",
+false,false); // 
+
+setcookie("Idioma","es", time()+60*60*24*365,"/","localhost",
+false,true); //
 
 ?>
 
