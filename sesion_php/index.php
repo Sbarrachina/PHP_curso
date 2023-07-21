@@ -1,9 +1,10 @@
-<?php 
-
-session_name("CON");
+<?php
 session_start();
 
-
+if (isset($_SESSION['nombre'])) {
+    header('Location: contador.php');
+    exit();
+}
 ?>
 
 <!DOCTYPE html>
@@ -14,18 +15,14 @@ session_start();
     <title>Sesiones PHP</title>
 </head>
 <body>
-<?php echo "has recargado esta pagina ".$_SESSION['contador'].
-    "veces"; ?>
     <form action="login.php" method="POST">
         <label>Usuario</label>
         <input type="text" name="usuario">
         <br>
-        <label> Clave</label>
+        <label>Clave</label>
         <input type="password" name="clave">
         <br><br>
         <button type="submit">Login</button>
-
     </form>
-    
 </body>
 </html>
